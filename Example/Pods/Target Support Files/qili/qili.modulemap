@@ -1,0 +1,6 @@
+framework module qili {
+  umbrella header "qili-umbrella.h"
+
+  export *
+  module * { export * }
+}

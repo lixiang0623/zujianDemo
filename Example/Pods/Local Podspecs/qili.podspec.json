@@ -1,0 +1,44 @@
+{
+  "name": "qili",
+  "version": "1.1.3",
+  "summary": "配置渠道崩溃问题",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://git.woa.com/YuewenGroup/Games/Client/iOS/channelSDK/qili",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "p_ilxiangli": "p_ilxiangli@tencent.com"
+  },
+  "source": {
+    "git": "git@git.woa.com/YuewenGroup/Games/Client/iOS/channelSDK/qili.git",
+    "tag": "1.1.3"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "static_framework": true,
+  "source_files": [
+    "qili/Classes/**/*",
+    "qili/Classes/IQKeyboardManager/**/*",
+    "qili/Classes/IQKeyboardManager/Categories/**/*",
+    "qili/Classes/IQKeyboardManager/Constants/**/*",
+    "qili/Classes/IQKeyboardManager/IQTextView/**/*",
+    "qili/Classes/IQKeyboardManager/IQToolbar/**/*"
+  ],
+  "vendored_frameworks": "qili/Frameworks/*.framework",
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "CHANNEL_NAME": "QiliChannelDelegate"
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "resource_bundles": {
+    "qili": [
+      "qili/Assets/Resources/QiLiBundle.bundle",
+      "qili/Assets/Resources/*.xcassets"
+    ]
+  }
+}

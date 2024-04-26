@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>domain</key>
+	<string>https://gameapi.7li.cn</string>
+	<key>secretKey</key>
+	<string>9d4a4846aba74b189f0cf9bbd354db61</string>
+	<key>game_id</key>
+	<string>315</string>
+	<key>channel_id</key>
+	<string>100</string>
+	<key>sdkVersion</key>
+	<string>1.0.0</string>
+	<key>isAppSotre</key>
+	<string>1</string>
+</dict>
+</plist>

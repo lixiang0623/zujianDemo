@@ -1,0 +1,1 @@
+../../../../../qili/Classes/YWGameChannelProtocol.h

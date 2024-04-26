@@ -1,0 +1,943 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062438E9F778B65ED7B1670007551933 /* IQToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F60C063B05EF86CC9D84E64FD3D726 /* IQToolbar.m */; };
+		1384FB7CC817800AF6A8E02043A57A01 /* IQUIView+IQKeyboardToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1959AD3516FF716F72A40FFCD206E298 /* IQUIView+IQKeyboardToolbar.m */; };
+		16B00E031AC94C65B48C86578DA983EB /* IQKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 369094B28B14C5FE29BC2636E2D5D878 /* IQKeyboardManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		19569EF45DF83D3E4BCA04FBF982C6E8 /* IQKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E59BD86015E056A4BB09EB40FCF77D5 /* IQKeyboardManager.m */; };
+		1A775F6819A90976E9E5696F42D74660 /* IQKeyboardManager.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17C8B8AA8AA89C9EE65F6660DAE9556C /* IQKeyboardManager.xcassets */; };
+		27F800D0FDA193AF646A87D2EF937F9D /* IQBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBC241AEC28439F1CF4AD9AC0B5A769 /* IQBarButtonItem.m */; };
+		3663E33C4FC1AA27C961A68D7855828D /* IQUIView+Hierarchy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD6755C301EF4EB9BDD5803F326403E /* IQUIView+Hierarchy.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3972E5DD33D49DDC70A5C9C333DD90BB /* IQKeyboardManagerConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 4381AED5660B4D3AF5FE3F72FB740FB1 /* IQKeyboardManagerConstants.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4B3382D9A48F919B9C6687AAA14630AA /* QiLiBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F3725E007BB399955803B7E3800B7213 /* QiLiBundle.bundle */; };
+		55A4C69CA613DAA28CF498C32D2EEA29 /* IQUITextFieldView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 31BCF3A6F51A73BFB7586087094E54B1 /* IQUITextFieldView+Additions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5713FB131CDB2101808921A616BC16B5 /* IQKeyboardReturnKeyHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1BCFA5CFE7738C3E587C04DB4B6434 /* IQKeyboardReturnKeyHandler.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61394BB7376C607C1761374C94A59ED4 /* QiliChannelDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC34022664CB9AD5493876A1EA50A53E /* QiliChannelDelegate.m */; };
+		61922E1EDA23D631833CE0FB774B56DA /* Pods-qili_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A57CCA83CA689B4E70B45115DF0FC19 /* Pods-qili_Example-dummy.m */; };
+		65F513A3FD932ACA82247D2E1D7151DD /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = ACEE230A3833CFB9CBE8CE10B839060F /* Common.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		66A9F036559EE98C8C94F48CA7B717D9 /* IQTitleBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 704C701413A0D5264A381009705A71C4 /* IQTitleBarButtonItem.m */; };
+		69C1AA4A84883C28758F771A0447FF26 /* IQUIScrollView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E00B526A8B8C3B58037291BD6BD94C99 /* IQUIScrollView+Additions.m */; };
+		71081F1EE458F40F9F4017C22C00994B /* IQUIViewController+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4972B3C58423DC26860960C77AEC3159 /* IQUIViewController+Additions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71FA1597AC10D5741B3119E66142F8EE /* IQPreviousNextView.h in Headers */ = {isa = PBXBuildFile; fileRef = C44092219AA58FBC5F3C316B738D02E5 /* IQPreviousNextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		73AA46F5490E35047060E26144F086C4 /* IQKeyboardManagerConstantsInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 0380B46AE23487463D34B045E4B19CE5 /* IQKeyboardManagerConstantsInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8D29FAEFEE3CABC1160DF44A1C2BA4D9 /* IQPreviousNextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AB4C6F2CBE85961C2CF347AF3FB3D5A /* IQPreviousNextView.m */; };
+		945EBE7C63C73F7AA5701C98F702F407 /* qili-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC917CE024B86A980177CD458449F10 /* qili-dummy.m */; };
+		98C1CFCA76603FD5395A00C971348D64 /* QiliChannelDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = FADC78AB5AAF0FCBE3509DF205B0D241 /* QiliChannelDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA323F13C5F7BA42EFEB66A68A4E683D /* IQTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE0FC37951079309693CAFCE3C202EB /* IQTextView.m */; };
+		B2C861D0DE7471E6AD9C0C5285D52E95 /* IQNSArray+Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = 88F4EFADB732D6431129010C3E9B475C /* IQNSArray+Sort.m */; };
+		B61590747715ED1DCE31AD2F55C3A1CB /* IQNSArray+Sort.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A73616F98D38E831A341727D2A1BCBA /* IQNSArray+Sort.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B6E62BFE7CA1BB0FB839D9C15CC88B3A /* Pods-qili_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF768FE0E3F8DBC22A062BEF475D2A6D /* Pods-qili_Tests-dummy.m */; };
+		B9A0CA961D5BA8C70DA9A9A7FEE39AB5 /* IQUITextFieldView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CE6FCDD710E5A6DC91008600D18096 /* IQUITextFieldView+Additions.m */; };
+		BCBDF9CE4267A484F5982DF67384BE1A /* IQUIView+IQKeyboardToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2118A891D7FA3A7ED7074DF157D73C22 /* IQUIView+IQKeyboardToolbar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3283743AC5479748A145ADB955441E1 /* IQUIView+Hierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C11C2FE2F75B4D80E88FF7283EE4CC1 /* IQUIView+Hierarchy.m */; };
+		DFF47BBA2F39B2756A4FAA7DFB6D277A /* IQTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = BFF94CDADA83DA950B615BDB3598DE13 /* IQTextView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E255D5AB354DF8E6C9FD3F5B87E6B62F /* IQUIScrollView+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E19AE2AB94F8065EF41D0D37A5BE66B /* IQUIScrollView+Additions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E63AAC1E014F1935F00D1C2C3F90B865 /* YWGameChannelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 18B0111410FA89C0FABCC9C2275D8735 /* YWGameChannelProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E952A0049C35A2F1EE7EE052553D1086 /* IQTitleBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 083BD277BA24F6B23E81FDD8F7C7CFCC /* IQTitleBarButtonItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F6643784D27FF125DDE3C7564A06DCAE /* IQBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 652AD9D0855F181329722D40C722884B /* IQBarButtonItem.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC7D7475CDD4A067830DF1EEE2F476AB /* IQKeyboardReturnKeyHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C175C4ABE64345D27FC2D8722910A175 /* IQKeyboardReturnKeyHandler.m */; };
+		FF2C226E8904295CA9B4956FB21A4939 /* IQToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DED99E37307B9A8E7E74BF7363E915E /* IQToolbar.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FFF2BE0D85FA80948D790343C370CEB1 /* IQUIViewController+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C5644D083F1436A8D7D7A02C5EA7782 /* IQUIViewController+Additions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7A51A044666D80946AD9C256596F7D65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43DF956677C4DAFC13D5B1521BBCD874;
+			remoteInfo = "Pods-qili_Example";
+		};
+		9FEA78C882ECBC278D1128AB6E0B4BA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 992D04B4CAC8D1403C1BA5318C410FB0;
+			remoteInfo = qili;
+		};
+		EFBBC0ECEC8F9EC5690F3C4C88751EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1C9BE4E1552D6EB5A4622F9EC59F72D;
+			remoteInfo = "qili-qili";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C94C716F2BCCF79500995DF4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0380B46AE23487463D34B045E4B19CE5 /* IQKeyboardManagerConstantsInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstantsInternal.h; sourceTree = "<group>"; };
+		083BD277BA24F6B23E81FDD8F7C7CFCC /* IQTitleBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IQTitleBarButtonItem.h; sourceTree = "<group>"; };
+		17C8B8AA8AA89C9EE65F6660DAE9556C /* IQKeyboardManager.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = IQKeyboardManager.xcassets; path = qili/Assets/Resources/IQKeyboardManager.xcassets; sourceTree = "<group>"; };
+		18B0111410FA89C0FABCC9C2275D8735 /* YWGameChannelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YWGameChannelProtocol.h; path = qili/Classes/YWGameChannelProtocol.h; sourceTree = "<group>"; };
+		1959AD3516FF716F72A40FFCD206E298 /* IQUIView+IQKeyboardToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+IQKeyboardToolbar.m"; sourceTree = "<group>"; };
+		1FC43117F96F22F9642F8D7F614A7C78 /* Pods-qili_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-qili_Example-resources.sh"; sourceTree = "<group>"; };
+		2118A891D7FA3A7ED7074DF157D73C22 /* IQUIView+IQKeyboardToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQUIView+IQKeyboardToolbar.h"; sourceTree = "<group>"; };
+		2300947773EB9AB1CBD2DC61F8530D45 /* Pods-qili_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-qili_Example"; path = "libPods-qili_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26ED75EE59EF7FD8E6B2DAB7F83EEFC6 /* Pods-qili_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qili_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		29B30C495F495BDEF67125FDEDF50E2E /* Pods-qili_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qili_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		31BCF3A6F51A73BFB7586087094E54B1 /* IQUITextFieldView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQUITextFieldView+Additions.h"; sourceTree = "<group>"; };
+		369094B28B14C5FE29BC2636E2D5D878 /* IQKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManager.h; sourceTree = "<group>"; };
+		4381AED5660B4D3AF5FE3F72FB740FB1 /* IQKeyboardManagerConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerConstants.h; sourceTree = "<group>"; };
+		47F694362DF5853F42063480FE087BB2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		4972B3C58423DC26860960C77AEC3159 /* IQUIViewController+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQUIViewController+Additions.h"; sourceTree = "<group>"; };
+		4A73616F98D38E831A341727D2A1BCBA /* IQNSArray+Sort.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQNSArray+Sort.h"; sourceTree = "<group>"; };
+		4AD6755C301EF4EB9BDD5803F326403E /* IQUIView+Hierarchy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQUIView+Hierarchy.h"; sourceTree = "<group>"; };
+		5DED99E37307B9A8E7E74BF7363E915E /* IQToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IQToolbar.h; sourceTree = "<group>"; };
+		652AD9D0855F181329722D40C722884B /* IQBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IQBarButtonItem.h; sourceTree = "<group>"; };
+		6A15AD8CF1F018934F7BD6D363CE9298 /* qili.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = qili.release.xcconfig; sourceTree = "<group>"; };
+		6A57CCA83CA689B4E70B45115DF0FC19 /* Pods-qili_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-qili_Example-dummy.m"; sourceTree = "<group>"; };
+		6BC917CE024B86A980177CD458449F10 /* qili-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "qili-dummy.m"; sourceTree = "<group>"; };
+		704C701413A0D5264A381009705A71C4 /* IQTitleBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IQTitleBarButtonItem.m; sourceTree = "<group>"; };
+		7827077E5FAE656E12B497978CCE9938 /* Pods-qili_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qili_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		88F4EFADB732D6431129010C3E9B475C /* IQNSArray+Sort.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQNSArray+Sort.m"; sourceTree = "<group>"; };
+		8AB4C6F2CBE85961C2CF347AF3FB3D5A /* IQPreviousNextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IQPreviousNextView.m; sourceTree = "<group>"; };
+		8C11C2FE2F75B4D80E88FF7283EE4CC1 /* IQUIView+Hierarchy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQUIView+Hierarchy.m"; sourceTree = "<group>"; };
+		8E59BD86015E056A4BB09EB40FCF77D5 /* IQKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardManager.m; sourceTree = "<group>"; };
+		93B21E90BC06590349982C09055BF229 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		98800E55723646F52EB08B6FD6B1596A /* Pods-qili_Tests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-qili_Tests"; path = "libPods-qili_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A4391D317B86FFD16A5724AD9275D17 /* qili.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = qili.debug.xcconfig; sourceTree = "<group>"; };
+		9C1BCFA5CFE7738C3E587C04DB4B6434 /* IQKeyboardReturnKeyHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IQKeyboardReturnKeyHandler.h; sourceTree = "<group>"; };
+		9C5644D083F1436A8D7D7A02C5EA7782 /* IQUIViewController+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQUIViewController+Additions.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E19AE2AB94F8065EF41D0D37A5BE66B /* IQUIScrollView+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IQUIScrollView+Additions.h"; sourceTree = "<group>"; };
+		A3F60C063B05EF86CC9D84E64FD3D726 /* IQToolbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IQToolbar.m; sourceTree = "<group>"; };
+		ACEE230A3833CFB9CBE8CE10B839060F /* Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Common.h; path = qili/Classes/Common.h; sourceTree = "<group>"; };
+		BCDD8AE113BD1CC4A7463CE013B1AD71 /* Pods-qili_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-qili_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BFF94CDADA83DA950B615BDB3598DE13 /* IQTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IQTextView.h; sourceTree = "<group>"; };
+		C175C4ABE64345D27FC2D8722910A175 /* IQKeyboardReturnKeyHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IQKeyboardReturnKeyHandler.m; sourceTree = "<group>"; };
+		C2C13CC00E08D43FD3A0D97F8FF3BB2B /* qili-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "qili-prefix.pch"; sourceTree = "<group>"; };
+		C44092219AA58FBC5F3C316B738D02E5 /* IQPreviousNextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = IQPreviousNextView.h; sourceTree = "<group>"; };
+		CC34022664CB9AD5493876A1EA50A53E /* QiliChannelDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QiliChannelDelegate.m; path = qili/Classes/QiliChannelDelegate.m; sourceTree = "<group>"; };
+		CDB9569A00C3ED3F391EDF0E55F49368 /* Pods-qili_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qili_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CFBC29873C505D9F4B95A9EB6D362477 /* Pods-qili_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qili_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D004329D7702B35C41ED41750A710901 /* ResourceBundle-qili-qili-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-qili-qili-Info.plist"; sourceTree = "<group>"; };
+		D4CE6FCDD710E5A6DC91008600D18096 /* IQUITextFieldView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQUITextFieldView+Additions.m"; sourceTree = "<group>"; };
+		D6F93F029CD9B32EA8035F2C375A0CD2 /* qili.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = qili.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D8E163FD0720739FEBFF4263DA8B2780 /* qili */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = qili; path = libqili.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBE0FC37951079309693CAFCE3C202EB /* IQTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IQTextView.m; sourceTree = "<group>"; };
+		E00B526A8B8C3B58037291BD6BD94C99 /* IQUIScrollView+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IQUIScrollView+Additions.m"; sourceTree = "<group>"; };
+		EC8121A878B1318399510BBBA96CF8D7 /* qili.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qili.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBC241AEC28439F1CF4AD9AC0B5A769 /* IQBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = IQBarButtonItem.m; sourceTree = "<group>"; };
+		EF768FE0E3F8DBC22A062BEF475D2A6D /* Pods-qili_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-qili_Tests-dummy.m"; sourceTree = "<group>"; };
+		F289A89269112FAD6750AA01F2443446 /* QiLiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QiLiSDK.framework; path = qili/Frameworks/QiLiSDK.framework; sourceTree = "<group>"; };
+		F33742FA60755EA781255C4FF07FA858 /* Pods-qili_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-qili_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F3725E007BB399955803B7E3800B7213 /* QiLiBundle.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = QiLiBundle.bundle; path = qili/Assets/Resources/QiLiBundle.bundle; sourceTree = "<group>"; };
+		FA8BD18A6950CB1C861CF9F536104553 /* Pods-qili_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-qili_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FADC78AB5AAF0FCBE3509DF205B0D241 /* QiliChannelDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QiliChannelDelegate.h; path = qili/Classes/QiliChannelDelegate.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		053DF5C12BA67E572FF1CA0167DBD940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DC92192FC19F4414014B03AF4CCCB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B795B48EBCCD2AD87A51DB4C93BBF54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E2797FE6E7B94E839EB67E2E84C9DB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ED05D8C6FF1BCD61BEA9A83985E1A18 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				652AD9D0855F181329722D40C722884B /* IQBarButtonItem.h */,
+				ECBC241AEC28439F1CF4AD9AC0B5A769 /* IQBarButtonItem.m */,
+				C44092219AA58FBC5F3C316B738D02E5 /* IQPreviousNextView.h */,
+				8AB4C6F2CBE85961C2CF347AF3FB3D5A /* IQPreviousNextView.m */,
+				083BD277BA24F6B23E81FDD8F7C7CFCC /* IQTitleBarButtonItem.h */,
+				704C701413A0D5264A381009705A71C4 /* IQTitleBarButtonItem.m */,
+				5DED99E37307B9A8E7E74BF7363E915E /* IQToolbar.h */,
+				A3F60C063B05EF86CC9D84E64FD3D726 /* IQToolbar.m */,
+				2118A891D7FA3A7ED7074DF157D73C22 /* IQUIView+IQKeyboardToolbar.h */,
+				1959AD3516FF716F72A40FFCD206E298 /* IQUIView+IQKeyboardToolbar.m */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		0F912DB97D18B304678C38627A2F4336 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				BFF94CDADA83DA950B615BDB3598DE13 /* IQTextView.h */,
+				DBE0FC37951079309693CAFCE3C202EB /* IQTextView.m */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		26C81D1FE2C67806F85E77A349553EDF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6BC917CE024B86A980177CD458449F10 /* qili-dummy.m */,
+				C2C13CC00E08D43FD3A0D97F8FF3BB2B /* qili-prefix.pch */,
+				9A4391D317B86FFD16A5724AD9275D17 /* qili.debug.xcconfig */,
+				6A15AD8CF1F018934F7BD6D363CE9298 /* qili.release.xcconfig */,
+				D004329D7702B35C41ED41750A710901 /* ResourceBundle-qili-qili-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/qili";
+			sourceTree = "<group>";
+		};
+		2B64EF585A2CBDC2576B3BCA9F5BABC6 /* Pods-qili_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FA8BD18A6950CB1C861CF9F536104553 /* Pods-qili_Example-acknowledgements.markdown */,
+				BCDD8AE113BD1CC4A7463CE013B1AD71 /* Pods-qili_Example-acknowledgements.plist */,
+				6A57CCA83CA689B4E70B45115DF0FC19 /* Pods-qili_Example-dummy.m */,
+				1FC43117F96F22F9642F8D7F614A7C78 /* Pods-qili_Example-resources.sh */,
+				26ED75EE59EF7FD8E6B2DAB7F83EEFC6 /* Pods-qili_Example.debug.xcconfig */,
+				CDB9569A00C3ED3F391EDF0E55F49368 /* Pods-qili_Example.release.xcconfig */,
+			);
+			name = "Pods-qili_Example";
+			path = "Target Support Files/Pods-qili_Example";
+			sourceTree = "<group>";
+		};
+		4475A73C89F484868C002EA7A79A360D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B64EF585A2CBDC2576B3BCA9F5BABC6 /* Pods-qili_Example */,
+				72594D7BEEB17E415511B5816A7A930B /* Pods-qili_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5455143BA8F4620490AC60160979011E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				4381AED5660B4D3AF5FE3F72FB740FB1 /* IQKeyboardManagerConstants.h */,
+				0380B46AE23487463D34B045E4B19CE5 /* IQKeyboardManagerConstantsInternal.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		6A6068033F4F5F796C02254518EE0CA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F289A89269112FAD6750AA01F2443446 /* QiLiSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72594D7BEEB17E415511B5816A7A930B /* Pods-qili_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CFBC29873C505D9F4B95A9EB6D362477 /* Pods-qili_Tests-acknowledgements.markdown */,
+				7827077E5FAE656E12B497978CCE9938 /* Pods-qili_Tests-acknowledgements.plist */,
+				EF768FE0E3F8DBC22A062BEF475D2A6D /* Pods-qili_Tests-dummy.m */,
+				F33742FA60755EA781255C4FF07FA858 /* Pods-qili_Tests.debug.xcconfig */,
+				29B30C495F495BDEF67125FDEDF50E2E /* Pods-qili_Tests.release.xcconfig */,
+			);
+			name = "Pods-qili_Tests";
+			path = "Target Support Files/Pods-qili_Tests";
+			sourceTree = "<group>";
+		};
+		9907B3240C870BB1DD1E2FA42A4AEA05 /* IQKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				369094B28B14C5FE29BC2636E2D5D878 /* IQKeyboardManager.h */,
+				8E59BD86015E056A4BB09EB40FCF77D5 /* IQKeyboardManager.m */,
+				9C1BCFA5CFE7738C3E587C04DB4B6434 /* IQKeyboardReturnKeyHandler.h */,
+				C175C4ABE64345D27FC2D8722910A175 /* IQKeyboardReturnKeyHandler.m */,
+				EE30845D6A357D47C6792B5AD09353EA /* Categories */,
+				5455143BA8F4620490AC60160979011E /* Constants */,
+				0F912DB97D18B304678C38627A2F4336 /* IQTextView */,
+				0ED05D8C6FF1BCD61BEA9A83985E1A18 /* IQToolbar */,
+			);
+			name = IQKeyboardManager;
+			path = qili/Classes/IQKeyboardManager;
+			sourceTree = "<group>";
+		};
+		BFF226B25CFCB66CE59F3FC81CDA9D60 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9EA7128A16B85E47E84FA534BC41A4E /* qili */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C4AADC3D6785EF7E0F6E2B0D17E19034 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				47F694362DF5853F42063480FE087BB2 /* LICENSE */,
+				D6F93F029CD9B32EA8035F2C375A0CD2 /* qili.podspec */,
+				93B21E90BC06590349982C09055BF229 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BFF226B25CFCB66CE59F3FC81CDA9D60 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				EBDEF7DE0F631BDB4001AE17E186687E /* Products */,
+				4475A73C89F484868C002EA7A79A360D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9EA7128A16B85E47E84FA534BC41A4E /* qili */ = {
+			isa = PBXGroup;
+			children = (
+				ACEE230A3833CFB9CBE8CE10B839060F /* Common.h */,
+				17C8B8AA8AA89C9EE65F6660DAE9556C /* IQKeyboardManager.xcassets */,
+				F3725E007BB399955803B7E3800B7213 /* QiLiBundle.bundle */,
+				FADC78AB5AAF0FCBE3509DF205B0D241 /* QiliChannelDelegate.h */,
+				CC34022664CB9AD5493876A1EA50A53E /* QiliChannelDelegate.m */,
+				18B0111410FA89C0FABCC9C2275D8735 /* YWGameChannelProtocol.h */,
+				6A6068033F4F5F796C02254518EE0CA2 /* Frameworks */,
+				9907B3240C870BB1DD1E2FA42A4AEA05 /* IQKeyboardManager */,
+				C4AADC3D6785EF7E0F6E2B0D17E19034 /* Pod */,
+				26C81D1FE2C67806F85E77A349553EDF /* Support Files */,
+			);
+			name = qili;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EBDEF7DE0F631BDB4001AE17E186687E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2300947773EB9AB1CBD2DC61F8530D45 /* Pods-qili_Example */,
+				98800E55723646F52EB08B6FD6B1596A /* Pods-qili_Tests */,
+				D8E163FD0720739FEBFF4263DA8B2780 /* qili */,
+				EC8121A878B1318399510BBBA96CF8D7 /* qili.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE30845D6A357D47C6792B5AD09353EA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4A73616F98D38E831A341727D2A1BCBA /* IQNSArray+Sort.h */,
+				88F4EFADB732D6431129010C3E9B475C /* IQNSArray+Sort.m */,
+				9E19AE2AB94F8065EF41D0D37A5BE66B /* IQUIScrollView+Additions.h */,
+				E00B526A8B8C3B58037291BD6BD94C99 /* IQUIScrollView+Additions.m */,
+				31BCF3A6F51A73BFB7586087094E54B1 /* IQUITextFieldView+Additions.h */,
+				D4CE6FCDD710E5A6DC91008600D18096 /* IQUITextFieldView+Additions.m */,
+				4AD6755C301EF4EB9BDD5803F326403E /* IQUIView+Hierarchy.h */,
+				8C11C2FE2F75B4D80E88FF7283EE4CC1 /* IQUIView+Hierarchy.m */,
+				4972B3C58423DC26860960C77AEC3159 /* IQUIViewController+Additions.h */,
+				9C5644D083F1436A8D7D7A02C5EA7782 /* IQUIViewController+Additions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06C195FB07EEC8CD30B050B9602C05D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65F513A3FD932ACA82247D2E1D7151DD /* Common.h in Headers */,
+				F6643784D27FF125DDE3C7564A06DCAE /* IQBarButtonItem.h in Headers */,
+				16B00E031AC94C65B48C86578DA983EB /* IQKeyboardManager.h in Headers */,
+				3972E5DD33D49DDC70A5C9C333DD90BB /* IQKeyboardManagerConstants.h in Headers */,
+				73AA46F5490E35047060E26144F086C4 /* IQKeyboardManagerConstantsInternal.h in Headers */,
+				5713FB131CDB2101808921A616BC16B5 /* IQKeyboardReturnKeyHandler.h in Headers */,
+				B61590747715ED1DCE31AD2F55C3A1CB /* IQNSArray+Sort.h in Headers */,
+				71FA1597AC10D5741B3119E66142F8EE /* IQPreviousNextView.h in Headers */,
+				DFF47BBA2F39B2756A4FAA7DFB6D277A /* IQTextView.h in Headers */,
+				E952A0049C35A2F1EE7EE052553D1086 /* IQTitleBarButtonItem.h in Headers */,
+				FF2C226E8904295CA9B4956FB21A4939 /* IQToolbar.h in Headers */,
+				E255D5AB354DF8E6C9FD3F5B87E6B62F /* IQUIScrollView+Additions.h in Headers */,
+				55A4C69CA613DAA28CF498C32D2EEA29 /* IQUITextFieldView+Additions.h in Headers */,
+				3663E33C4FC1AA27C961A68D7855828D /* IQUIView+Hierarchy.h in Headers */,
+				BCBDF9CE4267A484F5982DF67384BE1A /* IQUIView+IQKeyboardToolbar.h in Headers */,
+				71081F1EE458F40F9F4017C22C00994B /* IQUIViewController+Additions.h in Headers */,
+				98C1CFCA76603FD5395A00C971348D64 /* QiliChannelDelegate.h in Headers */,
+				E63AAC1E014F1935F00D1C2C3F90B865 /* YWGameChannelProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C65D13494B770273838166CDCD88F9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D003BBE5B67B6917D425F97238A3178D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		43DF956677C4DAFC13D5B1521BBCD874 /* Pods-qili_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B863C68B3FCF40419B5006A878E4356 /* Build configuration list for PBXNativeTarget "Pods-qili_Example" */;
+			buildPhases = (
+				5C65D13494B770273838166CDCD88F9D /* Headers */,
+				727E9DE77DD117A9B6769F468438282A /* Sources */,
+				053DF5C12BA67E572FF1CA0167DBD940 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A1471E55948526664F20455F1070EA9 /* PBXTargetDependency */,
+			);
+			name = "Pods-qili_Example";
+			productName = "Pods-qili_Example";
+			productReference = 2300947773EB9AB1CBD2DC61F8530D45 /* Pods-qili_Example */;
+			productType = "com.apple.product-type.library.static";
+		};
+		85BA9217C3AF8653B1C500B7823558FF /* Pods-qili_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 587C2467D8D786C77446BA1348AFC873 /* Build configuration list for PBXNativeTarget "Pods-qili_Tests" */;
+			buildPhases = (
+				D003BBE5B67B6917D425F97238A3178D /* Headers */,
+				418C6FAE2B3EA7AFC4E8E055246159A5 /* Sources */,
+				8E2797FE6E7B94E839EB67E2E84C9DB7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FDC46EACA956EDACBEC53C7295AF689 /* PBXTargetDependency */,
+			);
+			name = "Pods-qili_Tests";
+			productName = "Pods-qili_Tests";
+			productReference = 98800E55723646F52EB08B6FD6B1596A /* Pods-qili_Tests */;
+			productType = "com.apple.product-type.library.static";
+		};
+		992D04B4CAC8D1403C1BA5318C410FB0 /* qili */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D61825F2DF8612BEC93008878CF7FB5F /* Build configuration list for PBXNativeTarget "qili" */;
+			buildPhases = (
+				06C195FB07EEC8CD30B050B9602C05D0 /* Headers */,
+				EF9AE40B0595E81753C781CD2B076879 /* Sources */,
+				8B795B48EBCCD2AD87A51DB4C93BBF54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4449998525EAEA4E34CC7FC2BCB2260 /* PBXTargetDependency */,
+			);
+			name = qili;
+			productName = qili;
+			productReference = D8E163FD0720739FEBFF4263DA8B2780 /* qili */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D1C9BE4E1552D6EB5A4622F9EC59F72D /* qili-qili */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D72E55412A0BF2DCD7EED9E40CA0EA2 /* Build configuration list for PBXNativeTarget "qili-qili" */;
+			buildPhases = (
+				370B505419F8323D30FDDF83952F1F6C /* Sources */,
+				69DC92192FC19F4414014B03AF4CCCB7 /* Frameworks */,
+				156807375B8FA65685E62F03F7BCFE4E /* Resources */,
+				C94C716F2BCCF79500995DF4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "qili-qili";
+			productName = qili;
+			productReference = EC8121A878B1318399510BBBA96CF8D7 /* qili.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = EBDEF7DE0F631BDB4001AE17E186687E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43DF956677C4DAFC13D5B1521BBCD874 /* Pods-qili_Example */,
+				85BA9217C3AF8653B1C500B7823558FF /* Pods-qili_Tests */,
+				992D04B4CAC8D1403C1BA5318C410FB0 /* qili */,
+				D1C9BE4E1552D6EB5A4622F9EC59F72D /* qili-qili */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		156807375B8FA65685E62F03F7BCFE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A775F6819A90976E9E5696F42D74660 /* IQKeyboardManager.xcassets in Resources */,
+				4B3382D9A48F919B9C6687AAA14630AA /* QiLiBundle.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		370B505419F8323D30FDDF83952F1F6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		418C6FAE2B3EA7AFC4E8E055246159A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6E62BFE7CA1BB0FB839D9C15CC88B3A /* Pods-qili_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		727E9DE77DD117A9B6769F468438282A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61922E1EDA23D631833CE0FB774B56DA /* Pods-qili_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF9AE40B0595E81753C781CD2B076879 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F800D0FDA193AF646A87D2EF937F9D /* IQBarButtonItem.m in Sources */,
+				19569EF45DF83D3E4BCA04FBF982C6E8 /* IQKeyboardManager.m in Sources */,
+				FC7D7475CDD4A067830DF1EEE2F476AB /* IQKeyboardReturnKeyHandler.m in Sources */,
+				B2C861D0DE7471E6AD9C0C5285D52E95 /* IQNSArray+Sort.m in Sources */,
+				8D29FAEFEE3CABC1160DF44A1C2BA4D9 /* IQPreviousNextView.m in Sources */,
+				AA323F13C5F7BA42EFEB66A68A4E683D /* IQTextView.m in Sources */,
+				66A9F036559EE98C8C94F48CA7B717D9 /* IQTitleBarButtonItem.m in Sources */,
+				062438E9F778B65ED7B1670007551933 /* IQToolbar.m in Sources */,
+				69C1AA4A84883C28758F771A0447FF26 /* IQUIScrollView+Additions.m in Sources */,
+				B9A0CA961D5BA8C70DA9A9A7FEE39AB5 /* IQUITextFieldView+Additions.m in Sources */,
+				C3283743AC5479748A145ADB955441E1 /* IQUIView+Hierarchy.m in Sources */,
+				1384FB7CC817800AF6A8E02043A57A01 /* IQUIView+IQKeyboardToolbar.m in Sources */,
+				FFF2BE0D85FA80948D790343C370CEB1 /* IQUIViewController+Additions.m in Sources */,
+				945EBE7C63C73F7AA5701C98F702F407 /* qili-dummy.m in Sources */,
+				61394BB7376C607C1761374C94A59ED4 /* QiliChannelDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FDC46EACA956EDACBEC53C7295AF689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-qili_Example";
+			target = 43DF956677C4DAFC13D5B1521BBCD874 /* Pods-qili_Example */;
+			targetProxy = 7A51A044666D80946AD9C256596F7D65 /* PBXContainerItemProxy */;
+		};
+		8A1471E55948526664F20455F1070EA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = qili;
+			target = 992D04B4CAC8D1403C1BA5318C410FB0 /* qili */;
+			targetProxy = 9FEA78C882ECBC278D1128AB6E0B4BA2 /* PBXContainerItemProxy */;
+		};
+		C4449998525EAEA4E34CC7FC2BCB2260 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "qili-qili";
+			target = D1C9BE4E1552D6EB5A4622F9EC59F72D /* qili-qili */;
+			targetProxy = EFBBC0ECEC8F9EC5690F3C4C88751EBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		039BAA2420E5ACA203AB69420130DBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4391D317B86FFD16A5724AD9275D17 /* qili.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/qili/qili-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = qili;
+				PRODUCT_NAME = qili;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18F32B6ECA95FAC2D4360D9C242D2216 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDB9569A00C3ED3F391EDF0E55F49368 /* Pods-qili_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B3E52987A76A9213330736B8FD78FFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A15AD8CF1F018934F7BD6D363CE9298 /* qili.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/qili/qili-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = qili;
+				PRODUCT_NAME = qili;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		81DDD9FEAE4DAEC2951B572BAD20EA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A4391D317B86FFD16A5724AD9275D17 /* qili.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/qili";
+				IBSC_MODULE = qili;
+				INFOPLIST_FILE = "Target Support Files/qili/ResourceBundle-qili-qili-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = qili;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		8F5448A40FD8A41AB4E730659FAEDB83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29B30C495F495BDEF67125FDEDF50E2E /* Pods-qili_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91C4B3E151F6B09937BE2581F0A7108E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F33742FA60755EA781255C4FF07FA858 /* Pods-qili_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A01F7C2856A457A5C5439D1515A1D66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26ED75EE59EF7FD8E6B2DAB7F83EEFC6 /* Pods-qili_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D88BA2A75058DE851701C18F2B13CEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A15AD8CF1F018934F7BD6D363CE9298 /* qili.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/qili";
+				IBSC_MODULE = qili;
+				INFOPLIST_FILE = "Target Support Files/qili/ResourceBundle-qili-qili-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = qili;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		587C2467D8D786C77446BA1348AFC873 /* Build configuration list for PBXNativeTarget "Pods-qili_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91C4B3E151F6B09937BE2581F0A7108E /* Debug */,
+				8F5448A40FD8A41AB4E730659FAEDB83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B863C68B3FCF40419B5006A878E4356 /* Build configuration list for PBXNativeTarget "Pods-qili_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A01F7C2856A457A5C5439D1515A1D66 /* Debug */,
+				18F32B6ECA95FAC2D4360D9C242D2216 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D72E55412A0BF2DCD7EED9E40CA0EA2 /* Build configuration list for PBXNativeTarget "qili-qili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81DDD9FEAE4DAEC2951B572BAD20EA8D /* Debug */,
+				D88BA2A75058DE851701C18F2B13CEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D61825F2DF8612BEC93008878CF7FB5F /* Build configuration list for PBXNativeTarget "qili" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				039BAA2420E5ACA203AB69420130DBFD /* Debug */,
+				3B3E52987A76A9213330736B8FD78FFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

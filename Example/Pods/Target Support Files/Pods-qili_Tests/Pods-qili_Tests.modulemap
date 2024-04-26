@@ -1,0 +1,6 @@
+framework module Pods_qili_Tests {
+  umbrella header "Pods-qili_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
